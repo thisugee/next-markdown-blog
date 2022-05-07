@@ -3,8 +3,6 @@ import path from "path";
 import matter from "gray-matter";
 import { format, parse } from "date-fns";
 
-import { paginate, PaginationResult } from "./paginator";
-
 export type BlogPost = {
   slug: string;
   title?: string;
